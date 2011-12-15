@@ -1,0 +1,94 @@
+@CHARSET "UTF-8";
+/**
+ * Campaign controller general CSS file
+ *
+ * ID:s that are used by layout and layout.css and must not be used to avoid duplicate id's:
+ * #alert 
+ * #background
+ * #container 
+ * #header 
+ * #title
+ * #search
+ * #search-top
+ * #search-field 
+ * #globalSearch
+ * #search-submit
+ * #submitsearch 
+ * #select
+ */
+ 
+ /**
+ * CSS "constants" cheat sheet
+ *
+ * RED 		= #D21034
+ * BLUE		= #0089CF
+ * GREEN	= #4B9B07
+ * YELLOW	= #FFC726
+ * DEEPBLUE	= #003581
+ * GREY		= #CCCCCC
+ */
+
+#campaigns #add-page #form_campaign_realcampaign { display: block; }
+#campaigns #add-page #linked, #campaigns #add-page #linked-with { border: 1px solid #CCCCCC; color: #9C9C9C; font-size: 12px; margin: -3px 0 5px; padding: 10px; }
+#campaigns #add-page #linked .link-target,
+#campaigns #add-page #linked-with .link-target { float: left; width: 70px; }
+
+#campaigns #add-page #linked .linked-challenge,
+#campaigns #add-page #linked-with .linked-challenge,
+#campaigns #add-page #linked .linked-idea,
+#campaigns #add-page #linked-with .linked-idea,
+#campaigns #add-page #linked .linked-vision,
+#campaigns #add-page #linked-with .linked-vision { color: #000000; float: right; padding-left: 10px; width: 390px; }
+
+#campaigns #add-page #linked .linked-challenge,
+#campaigns #add-page #linked-with .linked-challenge { border-left: 5px solid #D21034; }
+
+#campaigns #add-page #linked .linked-idea,
+#campaigns #add-page #linked-with .linked-idea { border-left: 5px solid #4B9B07; }
+
+#campaigns #add-page #linked .linked-vision,
+#campaigns #add-page #linked-with .linked-vision { border-left: 5px solid #FFC726; }
+
+#campaigns #add-page #CampaignAddForm { background: url("../../img/gray_dot_line_500.png") no-repeat scroll left bottom transparent; color: #A7A7A7; padding-bottom: 5px; }
+#campaigns #add-page #CampaignAddForm label strong { float: left; margin-left: 2px; }
+#campaigns #add-page #CampaignAddForm small { font-size: 12px; }
+
+#campaigns #add-page #CampaignAddForm input,
+#campaigns #add-page #CampaignAddForm textarea { background: none repeat scroll 0 0 #FAFAFA; border: 1px solid #7F9DB9; float: left; margin: 3px 0; min-height: 18px; padding: 2px; width: 384px; }
+
+#campaigns #add-page #CampaignAddForm .field-label,
+#campaigns #add-page #CampaignAddForm .field { float: left; width: 384px; }
+
+#campaigns #add-page #CampaignAddForm .limit { border: 1px solid #7F9DB9; color: #000000; float: right; height: 17px; margin: 3px 0; padding: 3px 0 2px; text-indent: 20px; width: 109px; }
+#campaigns #add-page #CampaignAddForm .limit.ok { background: url("../../img/icon_thumb_up.png") no-repeat scroll 1px 50% #F0FEE9; }
+#campaigns #add-page #CampaignAddForm .limit.bad { background: url("../../img/icon_thumb_down.png") no-repeat scroll 1px 50% #FFCFCF; }
+#campaigns #add-page #CampaignAddForm textarea#textlead { height: 49px; }
+#campaigns #add-page #CampaignAddForm textarea#text { height: 232px; }
+
+#campaigns #add-page #CampaignAddForm .row { margin-top: 4px; }
+#campaigns #add-page #CampaignAddForm .row.upload { margin: 10px 0 75px; }
+
+#campaigns #add-page #CampaignAddForm .row.upload .field,
+#campaigns #add-page #CampaignAddForm .row.upload .field-label,
+#campaigns #add-page #CampaignAddForm .row.upload .field input#upload { width: 307px !important; }
+
+#campaigns #add-page #CampaignAddForm .row.upload #browse,
+#campaigns #add-page #CampaignAddForm .row.upload #upload-file { height: 22px; }
+#campaigns #add-page #CampaignAddForm .row.upload #browse { font-weight: normal; margin: 4px 5px 0 10px; width: 80px; }
+#campaigns #add-page #CampaignAddForm .row.upload #upload-file { margin-top: 4px; width: 95px; }
+#campaigns #add-page #language,
+#campaigns #add-page #industry-classification,
+#campaigns #add-page #innovation-type-classification,
+#campaigns #add-page #visions-of-the-future-classification { background: url("../../img/gray_dot_line_500.png") no-repeat scroll left bottom transparent; padding-bottom: 5px; }
+#campaigns #add-page #campaign_type select { margin: 3px 0; width: 390px; }
+#campaigns #add-page .submit { margin-top: 10px; }
+#campaigns #add-page #campaign_send input { width: 100px; }
+#campaigns #add-page #campaign_send input.ok { background: url("../../img/icon_thumb_up.png") no-repeat scroll 1px 50% #F0FEE9 }
+#campaigns #add-page #campaign_send input.bad { background: url("../../img/icon_thumb_down.png") no-repeat scroll 1px 50% #FFCFCF; }
+
+
+#campaigns #add-page #campaign_publish input, #campaigns #add-page #campaign_publish label { float:left; }
+#campaigns #add-page #campaign_publish input { width: 30px; }
+#campaigns #add-page #campaign_publish label { margin-top: 3px; }
+
+
